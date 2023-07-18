@@ -24,13 +24,14 @@ nav .logo{
     display: flex;
     align-items: center;
 }
+
 .content{
     margin-left: 10%;
     margin-top: 12%;
     color: white;
 }
 .content h2{
-    font-size: 80px;
+    font-size: 50px;
 }
 .content button{
     margin-top: 5%;

@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(24, 23, 23);
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-head{
+    color: rgb(122, 97, 97);
+    padding: 20px 30px;
+    border: none; 
+    border-radius: 20px;
+}
+
+.body-main{
+    color: rgb(234, 197, 197);
+    padding: 20px 30px;
+    border: none; 
+    border-radius: 30px;
+}
+
+nav {
+    width: 100%;
+    color: white;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+}
