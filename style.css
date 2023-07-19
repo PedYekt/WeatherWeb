@@ -30,10 +30,12 @@ nav .logo{
     margin-top: 12%;
     color: white;
 }
+
 .content h2{
     font-size: 50px;
 }
-.content button{
+
+.searchButton{
     margin-top: 5%;
     padding: 20px 50px;
     border: none; 
@@ -43,6 +45,26 @@ nav .logo{
     background-image: linear-gradient(to right, rgb(51, 60, 225), rgb(78, 230, 48));
     cursor: pointer;
 }
+
+.searchButton {
+    margin-right: 400px;
+    background-image: linear-gradient(to right, rgb(51, 60, 225), rgb(78, 230, 48));
+    background-size: 200% auto; /* The double size to animate both colors */
+}
+
+.searchButton:hover {
+    animation: animatedGradient 3s infinite alternate; /* Adjust the duration as you like */
+}
+
+@keyframes animatedGradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
 
 section{
     display: grid;
@@ -69,6 +91,7 @@ section{
     float:right;
     margin-right: 400px;
 }
+
 
 
 
