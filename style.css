@@ -16,7 +16,7 @@ body{
 }
 nav {
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 2%;
     color: white;
 }
 
@@ -57,4 +57,18 @@ section{
 #small{
     padding: 40px 50px;
 }
+
+.hidden{
+    display: none;
+    float:right;
+    margin-right: 400px;
+}
+
+.revealBtn{
+    display:initial;
+    float:right;
+    margin-right: 400px;
+}
+
+
 
