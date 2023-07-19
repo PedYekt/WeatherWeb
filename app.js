@@ -1,6 +1,6 @@
-const revealBtn = document.querySelector('.content button');
+const revealBtn = document.querySelector('.searchButton');
 const hiddenContent = document.querySelector('.content img')
-
+//click action
 function revealContent() {
     if(hiddenContent.classList.contains('revealBtn')
     ){
@@ -14,3 +14,5 @@ function revealContent() {
 }
 
 revealBtn.addEventListener('click',revealContent);
+
+
